@@ -111,6 +111,7 @@ body {
 
 .attribution {
     font-size: 12px;
+    text-align: center;
     color: #2e3349;
 }
 
@@ -121,4 +122,14 @@ body {
 
 .attribution a:hover {
     color: blue;
+}
+
+@media(max-width:375px) {
+    .container {
+        width: 95%;
+    }
+
+    .main_img {
+        width: 100%;
+    }
 }
